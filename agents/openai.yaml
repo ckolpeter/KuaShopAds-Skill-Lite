@@ -1,0 +1,6 @@
+interface:
+  display_name: "KuaShopAds Skill Lite"
+  short_description: "快手電商商品／直播／托管規劃、佣金損益與素材準備度"
+  default_prompt: "Use $kuashopads-skill-lite to prepare a mainland-China offline plan from supplied data, preserving unknowns and requiring human review."
+policy:
+  allow_implicit_invocation: true

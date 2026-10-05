@@ -1,0 +1,100 @@
+{
+  "slug": "kuashopads",
+  "name": "KuaShopAds Skill Lite",
+  "platform": "kuaishou",
+  "market": "CN",
+  "currency": "CNY",
+  "focus": "快手電商商品／直播／托管規劃、佣金損益與素材準備度",
+  "modes": [
+    "product",
+    "live",
+    "managed"
+  ],
+  "workflows": {
+    "product": [
+      "確認磁力金牛商家端資格",
+      "核對作品素材與商品供貨",
+      "明確分開佣金和廣告花費",
+      "按訂單貢獻做試投情境"
+    ],
+    "live": [
+      "確認直播、主播、客服與庫存",
+      "明確直播與商品歸因範圍",
+      "權利不足不列試投候選",
+      "不把短期零訂單直接停投"
+    ],
+    "managed": [
+      "托管可用性由商家確認",
+      "記錄目標、預算和介面定義",
+      "保留模型／人工判斷差異",
+      "不虛構托管出價與放量規則"
+    ]
+  },
+  "creative_tasks": {
+    "product": [
+      "商品使用示範与供貨證據",
+      "不冒充真實客戶心得"
+    ],
+    "live": [
+      "直播流程與售後解答清單",
+      "音樂、主播與達人授權待辦"
+    ],
+    "managed": [
+      "素材供給檢查與單一變因測試",
+      "托管效果只按提供報表描述"
+    ]
+  },
+  "budget_scope": {
+    "product": "equal_split_pilot_accounting_not_live_settings",
+    "live": "equal_split_pilot_accounting_not_live_settings",
+    "managed": "equal_split_pilot_accounting_not_live_settings"
+  },
+  "storefronts": [
+    "kuaishou"
+  ],
+  "report_goals": [
+    "sales"
+  ],
+  "notes": [
+    "磁力金牛與磁力智投、磁力聚星不混為同一產品。",
+    "托管是本地規劃模式，需商家自行核對當前可用產品。"
+  ],
+  "checklist": [
+    "確認商家端實際功能、站點及商品資格",
+    "核對收入、優惠、退款與佣金是否重複扣除",
+    "只使用授權素材與可證實主張",
+    "核對歸因期間、行層級與是否含自然成交"
+  ],
+  "sources": [
+    {
+      "id": "KUASHOPADS-1",
+      "title": "快手磁力引擎",
+      "url": "https://e.kuaishou.com/",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "scope_verified",
+      "summary": "Official page describes e-commerce promotion through live and video content."
+    },
+    {
+      "id": "KUASHOPADS-2",
+      "title": "磁力金牛官方服務協議",
+      "url": "https://niu.e.kuaishou.com/user-agreement",
+      "checked_on": "2026-10-05",
+      "scope": "CN",
+      "verification": "scope_verified",
+      "summary": "Confirms the platform identity and service context; detailed current controls are not inferred."
+    }
+  ],
+  "skill_id": "kuashopads-skill-lite",
+  "repo": "ckolpeter/KuaShopAds-Skill-Lite",
+  "version": "1.0.0",
+  "source_policy": "Public-source scope snapshot 2026-10-05. Local modes are NOT platform enums. No live capability claim.",
+  "focus_i18n": [
+    "快手電商商品／直播／托管規劃、佣金損益與素材準備度",
+    "快手电商商品／直播／托管规划、佣金损益与素材准备度",
+    "Kuaishou commerce product/live/managed planning with commission economics and creative readiness",
+    "快手ECの商品・ライブ・運用企画、手数料と素材準備の確認",
+    "콰이쇼우 전자상거래 상품·라이브·관리형 기획, 수수료 수익성 및 소재 준비도"
+  ],
+  "english": "Kuaishou commerce product/live/managed planning with commission economics and creative readiness"
+}
